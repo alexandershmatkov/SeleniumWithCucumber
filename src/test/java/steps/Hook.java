@@ -45,7 +45,7 @@ public class Hook extends BaseUtil{
 
         System.setProperty("webdriver.chrome.driver", "C:\\Libs\\chromedriver.exe");
         base.Driver = new ChromeDriver();
-        options.AddArguments("--disable-features=VizDisplayCompositor");
+       
     }
 
 
